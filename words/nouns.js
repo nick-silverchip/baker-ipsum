@@ -9,15 +9,15 @@ const nouns = [
     },
     {
         value: 'VS Code',
-        pronoun: null,
+        pronoun: 'a',
     },
     {
         value: 'AWS',
-        pronoun: null,
+        pronoun: 'an',
     },
     {
         value: 'app store',
-        pronoun: null,
+        pronoun: 'an',
     },
 ];
 

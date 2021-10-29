@@ -13,24 +13,6 @@ const getPronoun = text => {
     return result;
 };
 
-// const findInNArrays = (data, match) => {
-//     // Takes an array of arrays and matches a key:value pair in any of them
-//     // if no match, return null
-//     if (!match || Object.keys(match).length === 0) return null;
-//     // Loop and detect
-//     data.forEach(array => {
-//         array.forEach(item => {
-//             try {
-//                 const key = Object.keys(match)[0];
-//                 if (item[key] === match[key]) return item;
-//             } catch {
-//                 return null;
-//             }
-//         });
-//     });
-//     return null;
-// };
-
 const parseBaker = text => {
     // Match either { or } to split out keywords
     const textArr = text.split(/[\{\}]/g);
